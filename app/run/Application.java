@@ -16,7 +16,7 @@ public class Application {
 		SwingUtilities.invokeAndWait(new Runnable() {
 			@Override
 			public void run() {
-				MainWindow fen = new MainWindow();
+				final MainWindow fen = new MainWindow();
 				fen.addKeyListener(new KeyListener() {
 					public void keyTyped(KeyEvent ev) {}
 					
